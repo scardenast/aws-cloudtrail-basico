@@ -1,10 +1,13 @@
-# 📜 AWS CloudTrail – Registro básico de eventos
+# AWS CloudTrail – Registro básico de eventos
 
-Este proyecto demuestra cómo configurar un trail básico con **AWS CloudTrail** para registrar eventos de administración y validar su almacenamiento en un bucket S3. Forma parte de una serie práctica enfocada en **ciberseguridad en la nube**, específicamente en auditoría de accesos y acciones dentro del entorno AWS.
+Este laboratorio se centra en configurar un trail básico con CloudTrail para registrar eventos de administración en una cuenta de AWS. El objetivo es verificar que los registros se almacenen correctamente en un bucket S3, dejando evidencia de las acciones realizadas dentro del entorno.
+
+Es parte de una serie de ejercicios prácticos orientados a entender cómo auditar accesos, detectar movimientos sensibles y tener mayor visibilidad sobre lo que ocurre en la cuenta, algo esencial cuando se trabaja con recursos en la nube.
+
 
 ---
 
-## 🧰 Servicios y herramientas utilizadas
+## Servicios y herramientas utilizadas
 
 - **AWS CloudTrail** – Servicio de registro y auditoría de acciones
 - **Amazon S3** – Almacenamiento de logs generados por el trail
@@ -14,7 +17,7 @@ Este proyecto demuestra cómo configurar un trail básico con **AWS CloudTrail**
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```plaintext
 aws-cloudtrail-basico/
@@ -29,7 +32,7 @@ aws-cloudtrail-basico/
 
 ---
 
-## 🚀 Pasos realizados
+## Pasos realizados
 
 1. Crear estructura de carpetas local para el laboratorio.
 2. Configurar un trail en CloudTrail, eligiendo:
@@ -42,7 +45,7 @@ aws-cloudtrail-basico/
 
 ---
 
-## 📸 Capturas del proceso
+## Capturas del proceso
 
 ### 1️⃣ Estructura inicial del proyecto local
 ![Estructura inicial](screenshots/01-estructura-inicial.png)
@@ -59,17 +62,7 @@ aws-cloudtrail-basico/
 ### 5️⃣ Verificación de logs generados en el bucket S3
 ![Verificar logs](screenshots/05-verificar-logs-generados.png)
 
----
-
-## 📍 Resultado
-
-Trail funcional activo, registros auditados correctamente y proyecto documentado para incluirse como evidencia en portafolio técnico de seguridad en la nube.
 
 ---
 
-## 👤 Autor
-
-**Sebastián Cárdenas**  
-*Aspirante a AWS Cloud Practitioner | Estudiante de Ingeniería en Ciberseguridad*
-
-📫 Contacto: [sebastian.cardenas.t@gmail.com](mailto:sebastian.cardenas.t@gmail.com)
+## Contacto: [sebastian.cardenas.t@gmail.com](mailto:sebastian.cardenas.t@gmail.com)
